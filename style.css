@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: Space Grotesk;
+  /* font-family: 'Open Sans', sans-serif */
+  background-color: #EDE4E0;
+  color: #665a48;
+  /* padding: 50px; */
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Anybody', cursive;
+  color: #9F8772;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.list-inline > li {
+  /* display: inline; */
+  margin: 0 2px;
+  display: inline-block;
+  /* padding: 0px 20px; */
+}
+
+.list-inline {
+    padding: 0;
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #C8DBBE;
+  /* font-size: 18px; */
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #fb6f92;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-small {
+  width: 200px;
+  height: 200px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  /* width: 300px; */
+  margin: 25px auto;
+  border-radius: 4px;
+  border: 1px solid #EAEAEA;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.icon-large {
+  font-size: 200% ;
+  gap: 10px;
+}
